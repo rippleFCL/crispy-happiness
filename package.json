@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "echo 'Ripple is a bellend' && next build",
     "start": "next start",
     "lint": "next lint"
   },

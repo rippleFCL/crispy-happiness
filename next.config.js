@@ -4,7 +4,7 @@ const withVideos = require('next-videos')
 const nextConfig = {
     output: 'export',
     reactStrictMode: true,
-    basePath: '/github-pages',
+    basePath: '/ripplefcl-web',
 }
 
 // module.exports = nextConfig
