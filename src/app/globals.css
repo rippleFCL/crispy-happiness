@@ -105,3 +105,35 @@ a {
     color-scheme: dark;
   }
 }
+
+main {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+main > video {
+  height: 100%;
+  left: 0;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 500;
+  margin-bottom: 1rem;;
+}
